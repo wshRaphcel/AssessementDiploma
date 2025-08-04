@@ -1,0 +1,14 @@
+body {
+    background-color: #707079;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color:#a52a2a;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20pt;
+    color: #f5f5dc;
+}
