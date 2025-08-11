@@ -1,0 +1,19 @@
+{
+    "name": "vscode/assessement-diploma",
+    "description": "website project for diploma class",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "twig/twig": "^3.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vscode\\AssessementDiploma\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raphael"
+        }
+    ]
+}
