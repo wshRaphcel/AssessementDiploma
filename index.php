@@ -1,18 +1,8 @@
 <?php
-$title = "Home Page";
+require('vendor/autoload.php');
+
+use Rp\vscode\AssessementDiploma\App;
+
+// create an app object based on App class 
+$app = new App();
 ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<?php include "includes/head.php"; ?>
-<body>
-    <?php include "includes/nav.php"; ?>
-    <?php
-    //phpinfo();
-    echo "<h1>Hello World</h1>";
-    $message = "Hey There !";
-    echo "<p>$message</p>";
-    ?>
-</body>
-
-</html>
